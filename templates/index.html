@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Guardar datos en Google Sheets</title>
+</head>
+<body>
+    <form action="/guardar_datos" method="POST">
+        <label for="dato1">Dato 1:</label>
+        <input type="text" name="dato1"><br>
+
+        <label for="dato2">Dato 2:</label>
+        <input type="text" name="dato2"><br>
+
+        <input type="submit" value="Guardar">
+    </form>
+    <a href="{{url_for('login') }}">Login</a>
+</body>
+</html>
